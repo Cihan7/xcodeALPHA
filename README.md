@@ -1,3 +1,13 @@
+PW = gg.prompt({'🔒 ŞİFRE GİR: '},{[1]=''},{[1]='text'})
+if not PW then return
+end 
+if PW[1] == "" then gg.alert("DOSTUM ŞİFRE BOŞ! 😂") os.exit() end
+if PW[1] =="4001"then 
+	gg.toast('PASSWORD CORRECT ✅')
+else 
+	gg.alert("🔐 YANLIŞ ŞİFRE") return end
+gg.alert("【🖤 ALPHA_İNJEKTOR_V6.0_PLUS  🖤】")
+
 gg.toast("ℹᵗᵉˡᵉᵍʳᵃᵐ: ᵃˡᵖʰᵃᶜᵒᵈᵉᵗʳℹ")
 
 gg.alert ([[
