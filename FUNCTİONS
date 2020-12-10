@@ -3558,7 +3558,7 @@ gg.toast("Kar98 Skin✓️")
 end 
 
 function EXIT()
-print("╠══➣ 𝗔𝗹𝗽𝗵𝗮𝗛𝗮𝗰𝗸𝗧𝗥  🖤 Tarafından Tᴀᴍᴀᴍᴇɴ Vɪᴘ Kᴏᴅʟᴀʀᴅᴀɴ Yᴀᴘɪʟᴍɪsᴛɪʀ")
+print("╠══➣ ALPHAHACKTR🖤 Tarafından Tᴀᴍᴀᴍᴇɴ Vɪᴘ Kᴏᴅʟᴀʀᴅᴀɴ Yᴀᴘɪʟᴍɪsᴛɪʀ")
 gg.skipRestoreState()
 gg.setVisible(true)
   os.exit()
