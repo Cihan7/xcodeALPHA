@@ -48,27 +48,21 @@ PUBGMH = -1
 end 
 
 function AntibanMenu()
-PUBG1 = gg.multiChoice({
-"[👩‍💻]BYPASS V1(Lobby)\n",
-"[👨‍✈️]BYPASS V2(Lobby)\n",
-"[✖️]GERİ BAS",
-}, nil, "亗『AlphaHackTR』亗\nTELEGRAM: @AlphaHackTR")
-if PUBG1 == nil then
+WN = gg.multiChoice({
+"➣[☃️] Aɴᴛɪʙᴀɴ\n ༆V1",
+"➣[🌈] Aɴᴛɪʙᴀɴ\n ༆V2",
+"Ⓖ︎Ⓔ︎Ⓡ︎Ⓘ︎",
+}, nil, "📛 ᴀɴᴛɪʙᴀɴ ᴍᴇɴᴜ ɢʟ/ᴋʀ (ʙʀᴜᴛᴀʟ)📛")
+if WN == nil then
 else
-if PUBG1[1] == true then
-B1()
-end
-if PUBG1[2] == true then
-B2()
-end
-if CLOSE[3] == true then
-        BASGIT()
-      end 
-    end 
-    PUBGMH = -1
-  end 
+if WN[1] == true then GUVENLI1()end 
+if WN[2] == true then GUVENLI2()end 
+if WN[4] == true then HOME()end -- AlphaCode
+end 
+PUBGMH = -1
+end 
 
-function B1()
+function GUVENLI1()
 gg.setVisible(false)
 gg.toast("︻╦デ╤━╼ALPHA10%")
 gg.sleep(100)
@@ -168,8 +162,7 @@ gg.alert("1.Bʏᴘᴀss Aᴋᴛɪғ✓")
 gg.alert("2.Bʏᴘᴀssɪ ᴀᴋᴛɪғ ᴇᴛ")
 end --ᴀʟᴘʜᴀᴄᴏᴅᴇ
 
-
-function B2()
+function GUVENLI2()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -193,8 +186,9 @@ gg.refineNumber("263170", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.alert("2.ʙʏᴘᴀss Aᴋᴛɪғ✓")
-end
+gg.toast("AlphaHackTR Bypass Aktif YARGİYA BAŞLA")
+ end 
+
 
 function WALLHACK()
 UN = gg.choice({
