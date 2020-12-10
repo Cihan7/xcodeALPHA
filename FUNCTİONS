@@ -2973,8 +2973,7 @@ if DN[7] == true then Aimtk()end
 if DN[8] == true then KafadanVurma()end
 if DN[9] == true then SmallCroshair()end
 if DN[10] == true then AmvCall()end
-if DN[11] == true then KarCall()end
-if DN[12] == true then HOME()end
+if DN[11] == true then HOME()end
 end
 PUBGMH = -1
 end
@@ -3240,29 +3239,28 @@ end
 
 function AmvCall()
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("91000;2.29999995232;1.8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2.29999995232;1.8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(15)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.toast("√no reload awm")
-end
-
-function KarCall()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("128D;-1D;1.7;0.3::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.7", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("76000;5D;1.89999997616;0.1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.89999997616", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.toast("√no reload kar98")
-gg.clearResults()
-end
+  gg.setRanges(32)
+  gg.searchNumber("79000;1.79999995232;1.70000004768", 16, false, 536870912, 0, -1)
+  gg.searchNumber("1.79999995232;1.70000004768", 16, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0", 16)
+  gg.alert("M24 ")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("91000;2.29999995232;1.8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2.29999995232;1.8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(15)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.alert(" KAR98 ")
+  gg.clearResults()
+  gg.setRanges(32)
+  gg.searchNumber("76000;1.89999997616;1.70000004768", 16, false, 536870912, 0, -1)
+  gg.searchNumber("1.89999997616;1.70000004768", 16, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0", 16)
+  gg.alert("AWM ")
+end--Fᴜɴᴄᴛɪᴏɴ
 
 function RankPush()
 PN = gg.multiChoice({
@@ -3561,7 +3559,7 @@ gg.toast("Kar98 Skin✓️")
 end 
 
 function EXIT()
-print("╠══➣ 𝗔𝗹𝗽𝗵𝗮𝗛𝗮𝗰𝗸𝗧𝗥  ❣️ Tarafından Tᴀᴍᴀᴍᴇɴ Vɪᴘ Kᴏᴅʟᴀʀᴅᴀɴ Yᴀᴘɪʟᴍɪsᴛɪʀ")
+print("╠══➣ 𝗔𝗹𝗽𝗵𝗮𝗛𝗮𝗰𝗸𝗧𝗥  🖤 Tarafından Tᴀᴍᴀᴍᴇɴ Vɪᴘ Kᴏᴅʟᴀʀᴅᴀɴ Yᴀᴘɪʟᴍɪsᴛɪʀ")
 gg.skipRestoreState()
 gg.setVisible(true)
   os.exit()
