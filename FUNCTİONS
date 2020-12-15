@@ -1,6 +1,6 @@
 gg.alert("🗃️ AlphaHackTR_INJEKTOR_VERSİON_9.0")
 
-if gg.PACKAGE == "com.rmgmrtnsxifaygkuoa" then
+if gg.PACKAGE == "com.cjwuscicgkfqfwben" then
   else
     gg.alert("❗Kanaldaki İnjektörü Kullan❗")
     gg.copyText("https://t.me/AlphaHackTR")
