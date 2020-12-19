@@ -39,6 +39,7 @@ A = gg.multiChoice({
 "👨‍✈️ SafeMod",
 "💎 Less Recoil",
 "💎 Sihirli Mermiler",
+"🌃 Siyah Gökyüzü",
 "✖️ Çıkış"}, nil, "☆ YouTobe : AlphaHackTR \n☆ Telegram : @AlphaHackTR \n☆ Paylaş ve Destek ol 🌝 \n ☆ \n☆ Scriptin 4 gün süresi vardır⌛ - Tamamen vip kodlardan yapılmıştır")
 if A == nil then
 else
@@ -55,6 +56,9 @@ if A[4] == true then
 MB()
 end--Iғ
 if A[5] == true then
+SıyahGok()
+end--
+if A[6] == true then
 E()
 end--Iғ
 end--Eʟsᴇ
@@ -406,6 +410,18 @@ gg.editAll("200", 16)
 gg.clearResults()
 gg.toast("☆ AlphaHackTR ☆")
 end--Fᴜɴᴄᴛɪᴏɴ
+
+function SıyahGok()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-194958609;-197129489;-197113105;0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("C50")
+gg.getResults(10)
+gg.editAll("-1222130000", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Siyah Gökyüzü Aktif 🌃")
+end
 
 function E()
 gg.alert("☆ YouTobe : AlphaHackTR \n☆ Telegram : @AlphaHackTR \n☆ Paylaş ve Destek ol 🌝 \n ☆ \n☆ bu script in 4 gun süresi var - Tamamen vip kodlardan Yapılmıştır")
