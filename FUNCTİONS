@@ -40,6 +40,7 @@ A = gg.multiChoice({
 "💎 Less Recoil",
 "💎 Sihirli Mermiler",
 "🌃 Siyah Gökyüzü",
+"⛳ Çimleri Kaldır",
 "✖️ Çıkış"}, nil, "☆ YouTobe : AlphaHackTR \n☆ Telegram : @AlphaHackTR \n☆ Paylaş ve Destek ol 🌝 \n ☆ \n☆ Scriptin 4 gün süresi vardır⌛ - Tamamen vip kodlardan yapılmıştır")
 if A == nil then
 else
