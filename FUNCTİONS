@@ -57,10 +57,10 @@ if A[4] == true then
 MB()
 end--Iғ
 if A[5] == true then
-SıyahGok()
+SG()
 end--
 if A[6] == true then
-CımlerYok()
+DG()
 end--
 if A[7] == true then
 E()
@@ -415,7 +415,7 @@ gg.clearResults()
 gg.toast("☆ AlphaHackTR ☆")
 end--Fᴜɴᴄᴛɪᴏɴ
 
-function SıyahGok()
+function SG()
 gg.setVisible(false)
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("-194958609;-197129489;-197113105;0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -427,7 +427,7 @@ gg.clearResults()
 gg.toast("Siyah Gökyüzü Aktif 🌃")
 end
 
-function CımlerYok()
+function DG()
 gg.setVisible(false)
 gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber("-481099776;-439275496", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) --- //offstyogzz -4// ---
