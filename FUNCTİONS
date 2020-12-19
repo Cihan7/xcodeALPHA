@@ -59,6 +59,9 @@ if A[5] == true then
 SıyahGok()
 end--
 if A[6] == true then
+CımlerYok()
+end--
+if A[7] == true then
 E()
 end--Iғ
 end--Eʟsᴇ
@@ -421,6 +424,17 @@ gg.getResults(10)
 gg.editAll("-1222130000", gg.TYPE_DWORD)
 gg.clearResults()
 gg.toast("Siyah Gökyüzü Aktif 🌃")
+end
+
+function CımlerYok()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-481099776;-439275496", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) --- //offstyogzz -4// ---
+gg.refineAddress("D58")
+gg.getResults(5)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Çimleri Kaldır Aktif⛳")
 end
 
 function E()
