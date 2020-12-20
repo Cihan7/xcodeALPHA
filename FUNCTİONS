@@ -70,7 +70,7 @@ XGCK = -1
 end--Fᴜɴᴄᴛɪᴏɴ
 
 function BP()
-A = gg.choice({
+BP = gg.choice({
       '『🛡』BYPASS GLOBAL ',
       '『🛡』BYPASS KOREA ',
       '『⚠️』3.ᴘᴀʀᴛʏ ғɪx ʙᴀɴ',
