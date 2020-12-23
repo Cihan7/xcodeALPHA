@@ -1,32 +1,30 @@
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-gg.alert("🇹🇷 Script Guncel Version 6.6 🇹🇷\nNeler Güncellendi?\n\n -Guncel Bypass Kodları\n -Silah Menu")
-gg.alert("👨‍✈️ᗩᒪᑭᕼᗩ ᕼᗩᑕK ᑕᕼᗩᑎᑎᗴᒪ👨‍✈️\n               ⚜️ Anti Ban V6.6 ⚜️\n ⚜️ @𝗔𝗹𝗽𝗵𝗮𝗛𝗮𝗰𝗸𝗧𝗥 ⚜️")
-gg.alert("            ⚠🇩 🇮 🇰 🇰 🇦 🇹 ⚠\n╔══════════════════════╗\n    ᴋᴀɴᴀʟᴅᴀ ᴠᴇʀɪʟᴇɴ ɢɢ ᴋᴜʟʟᴀɴ ᴀᴋsɪ ʜᴀʟᴅᴇ ʙᴀɴ ʏᴇʀsɪɴ\n╚══════════════════════╝\n╔══════════════════════╗\n    🛡ᴏʏᴜɴᴅᴀɴ ɢᴀᴍᴇɢᴜᴀʀᴅɪᴀɴɪ ɢɪᴢʟᴇ : 2, 3 & 4\n    🛡ᴅᴏɴᴅᴜʀᴍᴀ ᴀʀᴀʟɪɢ̆ɪ : 0\n    🛡RAM ᴅᴇᴋɪ ᴠᴇʀɪʟᴇʀ : Hᴀʏɪʀ\n    🛡ᴏ̈ɴʟᴇ ʙᴏşᴀʟᴛᴍᴀ : Level 3\n╚══════════════════════╝")
-PUBGMH = 1
 function HOME()
   MN = gg.choice({
-    "🇹🇷 𝙱𝚢𝚙𝚊𝚜𝚜 𝙶𝙻𝙾𝙱𝙰𝙻 𝟹𝟸 𝙱𝚒𝚝",
-    "🇹🇷 𝙱𝚢𝚙𝚊𝚜𝚜 𝙺𝙾𝚁𝙴 𝟹𝟸 𝙱𝚒𝚝",
-    "📂 ᴅɪɢ̆ᴇʀʟᴇʀɪ",
-    "🔚𝘊̧ 𝘐 𝘒 𝘐 𝘚̧"
-  },nil, (os.date("【🖤 𝖠 𝖫 𝖯 𝖧 𝖠  𝖧 𝖠 𝖢 𝖪  𝖳 𝖱 🖤】\n【⚜️ Script Version 6.6⚜️】\n  %Y/%m/%d  : %H:%M:%S")))
+    "🌍 𝙱𝚢𝚙𝚊𝚜𝚜 𝙶𝙻𝙾𝙱𝙰𝙻 𝟹𝟸 𝙱𝚒𝚝",
+    "☃️ 𝙱𝚢𝚙𝚊𝚜𝚜 𝙺𝙾𝚁𝙴𝙰 𝟹𝟸 𝙱𝚒𝚝",
+    "🇹🇷 SİLAH HİLELERİ",
+    "🔚Ç I K I Ş"
+  },nil, (os.date("Mucotoo bypass \n  %Y/%m/%d  : %H:%M:%S")))
   if MN == nil then
   else
-    if MN == 1 then BYGL() end
-    if MN == 2 then BYKR() end
-    if MN == 3 then TEST() end
-    if MN == 4 then CLOSE() end
+    if MN == 1 then GLOBAL() end
+    if MN == 2 then KORE() end
+    if MN == 3 then SLAR()end
+    if MN == 4 then KAPAT() end
   end
   PUBGMH = -1
 end
-
-function BYGL()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function GLOBAL()
 MNGLBY = gg.choice({
-    " 𝐁𝐲𝐩𝐚𝐬𝐬 𝐋𝐨𝐛𝐛𝐲 V1",
-    " 𝐁𝐲𝐩𝐚𝐬𝐬 𝐋𝐨𝐛𝐛𝐲 V2",
-    " 𝐀𝐧𝐭𝐢 𝐑𝐞𝐩𝐨𝐫𝐭 [Lobby]",
-    "[🔙G E R İ  G İ T]"
-  }, nil, "【⭕ Bypass Global Menüsü】")
+    " Bypass V1",
+    " Bypass V2 ",
+    " AntiReport",
+    "geri"
+  }, nil, "Mucotoo Bypass Menüsü")
   if MNGLBY == nil then
   else
     if MNGLBY == 1 then KGMLG() NOTICELG() end
@@ -36,85 +34,36 @@ MNGLBY = gg.choice({
   end
   PUBGMH = -1
 end
-
-function BYKR()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function KORE()
 MNKRBY = gg.choice({
-    " 𝐁𝐲𝐩𝐚𝐬𝐬 𝐋𝐨𝐛𝐛𝐲 V1",
-    " 𝐁𝐲𝐩𝐚𝐬𝐬 𝐋𝐨𝐛𝐛𝐲 V2",
-    " 𝐀𝐧𝐭𝐢 𝐑𝐞𝐩𝐨𝐫𝐭 [Lobby]",
-    "[🔙G E R İ  G İ T]"
-  }, nil, "【❤️Bypass Kore Menüsü❤️】")
+    " Bypass V1",
+    " Bypass V2 ",
+    " AntiReport",
+    "geri"
+  }, nil, "Mucotoo Bypass Menüsü")
   if MNKRBY == nil then
   else
-    if MNKRBY == 1 then KGMLG() NOTICELG() end
-    if MNKRBY == 2 then KGMLB() NOTICELB() end
-    if MNKRBY == 3 then KGMRPT() NOTICERPT() end
+    if MNKRBY == 1 then MUCOTM() NOTICELG() end
+    if MNKRBY == 2 then MUCOLB() NOTICELB() end
+    if MNKRBY == 3 then MUCORPT() NOTICERPT() end
     if MNKRBY == 4 then HOME() end
   end
   PUBGMH = -1
 end
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function NOTICELG()
-gg.alert("🇹🇷 Bypass Başarılı 🇹🇷\nBypass Bölümü Lobbyde Açılacak")
+gg.alert("☃️☃️")
 end
 function NOTICELB()
-gg.alert("🇹🇷 Bypass Lobby Başarılı 🇹🇷")
+gg.alert("☃️☃️☃️")
 end
 function NOTICERPT()
-gg.alert("🇹🇷 Anti Report Başarılı 🇹🇷\n YARGI ZAMANI 🤣")
+gg.alert("👩‍💻")
 end
 
-function TEST()
-MNTEST = gg.multiChoice({
-    "📂𝙒𝙖𝙡𝙡𝙝𝙖𝙘𝙠 636",
-    "📂𝙒𝙖𝙡𝙡𝙝𝙖𝙘𝙠&𝙍𝙚𝙣𝙠 (𝖡𝗎̈𝗍𝗎̈𝗇 𝖲𝖣 𝖢𝗂𝗁𝖺𝗓𝗅𝖺𝗋)",
-    "▶𝘼𝙞𝙢𝘽𝙤𝙩 300𝙢 ",
-    "▶𝙔𝙪̈𝙠𝙨𝙚𝙠 𝙃𝙖𝙨𝙖𝙧 𝙑𝙚𝙧++ [𝙊𝙮𝙪𝙣]",
-    "▶𝙄̇𝙡𝙚𝙧𝙞 𝙃𝙞𝙯𝙡𝙞 𝙋𝙖𝙧𝙖𝙨̧𝙪̈𝙩 [𝙐𝙘̧𝙖𝙠𝙩𝙖]",
-    "▶𝙃𝙞𝙯𝙡𝙞 𝙋𝙖𝙧𝙖𝙨̧𝙪̈𝙩 [𝙐𝙘̧𝙖𝙠𝙩𝙖]",
-    "▶𝙇𝙚𝙨𝙨 𝙍𝙚𝙘𝙤𝙞𝙡",
-    "▶𝙎𝙞𝙡𝙖𝙝 𝙂𝙞𝙯𝙡𝙚",
-    "▶𝙎𝙞𝙝𝙞𝙧𝙡𝙞 𝙈𝙚𝙧𝙢𝙞𝙡𝙚𝙧",
-    "▶𝘼𝙮𝙖𝙠𝙩𝙖 𝙎𝙞𝙩𝙨𝙘𝙤𝙥𝙚 [ℝ𝕀𝕊𝕂]",
-    "▶𝘼𝙣𝙩𝙚𝙣 𝙤̈𝙡𝙪̈ 𝙠𝙪𝙩𝙪",
-    "▶𝙄̇𝙡𝙚𝙧𝙞 𝙃𝙞𝙯𝙡𝙞 𝙕𝙞𝙥𝙡𝙖",
-    "▶𝙃𝙞𝙯𝙡𝙞 𝙈𝙞𝙘𝙧𝙤 [ℝ𝕀𝕊𝕂]",
-    "▶𝘼𝙣𝙩𝙚𝙣 𝙋𝙧𝙤",
-    "▶𝙞𝙋𝙖𝙙 𝙂𝙤̈𝙧𝙪̈𝙣𝙪̈𝙢 𝕩𝟚",
-    "▶𝙞𝙋𝙖𝙙 𝙂𝙤̈𝙧𝙪̈𝙣𝙪̈𝙢 𝕩𝟜",
-    "▶𝙞𝙋𝙖𝙙 𝙂𝙤̈𝙧𝙪̈𝙣𝙪̈𝙢 𝕩𝟠",
-    "▶𝘽𝙚𝙠𝙡𝙚𝙢𝙚 𝙔𝙖𝙥𝙢𝙖",
-    "▶𝙎𝙞𝙮𝙖𝙝 𝙂𝙤𝙠𝙮𝙪̈𝙯𝙪̈ [𝔼ℝ𝔸ℕ𝔾𝔼𝕃]",
-    --"▶ℕ𝕠 𝔽𝕆𝔾",
-    "[🔙𝖦𝖤𝖱𝖨̇ 𝖡𝖠𝖲]"
-  }, nil, "【📛𝖠 𝖫 𝖯 𝖧 𝖠  𝖧 𝖠 𝖢 𝖪  𝖳 𝖱  𝖡 𝖱 𝖴 𝖳 𝖠 𝖫  𝖬 𝖤 𝖭 𝖴📛】")
-  if MNTEST == nil then
-  else
-    if MNTEST[1] == true then WHMENU() end
-    if MNTEST[2] == true then whclr() end
-    if MNTEST[3] == true then AIM() end
-    if MNTEST[4] == true then DMG() end
-    if MNTEST[5] == true then PST() end
-    if MNTEST[6] == true then FL() end
-    if MNTEST[7] == true then LESS() end
-    if MNTEST[8] == true then SHAKE() end
-    if MNTEST[9] == true then MAGIC() end
-    if MNTEST[10] == true then STAND() end
-    if MNTEST[11] == true then ANTBOX() end
-    if MNTEST[12] == true then LONGJ() end
-    if MNTEST[13] == true then SPD() end
-    if MNTEST[14] == true then ANT() end
-    if MNTEST[15] == true then IPAD2() end
-    if MNTEST[16] == true then IPAD4() end
-    if MNTEST[17] == true then IPAD8() end
-    if MNTEST[18] == true then NFOOT() end
-    if MNTEST[19] == true then SKY() end
-    if MNTEST[20] == true then HOME() end
-  end
-  PUBGMH = -1
-end
-
-function KGMLG()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function MUCOTM()
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -159,8 +108,8 @@ gg.getResults(50500)
 gg.editAll("67109633", gg.TYPE_DWORD)
 gg.clearResults()
 end
-
-function KGMLB()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function MUCOLB()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("196,864;16,842,753::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) 
@@ -239,8 +188,8 @@ t = nil
 gg.editAll("67109633", gg.TYPE_DWORD)
 gg.clearResults()
 end
-
-function KGMRPT()
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function MUCORPT()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("133634;134914", gg.TYPE_DWORD)
@@ -260,1527 +209,278 @@ gg.refineNumber("132098", gg.TYPE_DWORD)
 gg.clearResults()
 end
 
-function FIXDMG()
-  gg.clearResults()
-  gg.setRanges(32)
-  gg.searchNumber("50000~100000;0;1;5D~100D::13", 16, false, 536870912, 0, -1)
-  if gg.getResultCount() == 0 then
+function SLAR()
+  SN = gg.multiChoice({
+    " ☆𝗙𝗔𝗦𝗧 𝗟𝗔𝗡𝗗𝗜𝗡𝗚☆",
+    " ☆𝗔𝗡𝗧𝗘𝗡𝗔 𝗣𝗟𝗔𝗬𝗘𝗥☆",
+    "☆𝗔𝗜𝗠𝗕𝗢𝗧☆",
+    "☆𝗔𝗨𝗧𝗢 𝗛𝗘𝗔𝗗𝗦𝗛𝗢𝗧☆",
+    "☆𝗝𝗘𝗘𝗣 𝗙𝗟𝗬☆",
+    "☆𝗦𝗠𝗔𝗟𝗟 𝗣𝗟𝗔𝗬𝗘𝗥☆",
+    "☆𝗠𝗜𝗖𝗥𝗢 𝗥𝗨𝗡 𝗦𝗣𝗘𝗘𝗗☆",
+    "☆𝗠𝗔𝗚𝗜𝗖 𝗕𝗨𝗟𝗟𝗘𝗧☆",
+    "☆𝗡𝗢 𝗥𝗘𝗖𝗢𝗜𝗟☆",
+    "☆𝗔𝗡𝗧𝗘𝗡𝗔 2☆",
+    "☆𝗗𝗔𝗖𝗜𝗔 𝗝𝗨𝗠𝗣☆",
+    "☆𝗪𝗔𝗟𝗟𝗛𝗔𝗖𝗞 710|800",
+    "☆𝗪𝗔𝗟𝗟𝗛𝗔𝗖𝗞 𝗚𝗥𝗘𝗘𝗡 𝗖𝗢𝗟𝗢𝗨𝗥☆",
+    "ÇIKIŞ"
+  }, nil, "╔─━━━━━━━━░🇹🇷 ALPHAHACKTR❤ ░━━━━━━━━─╗🔷️𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺@AlphaHackTR🔷️🔸YOUTUBE 〘 AlphaHackTR〙🔸♔ \n╚─━━━━━━━━░░ 🔥JOIN TELEGRAM ░░━━━━━━━━─╝")
+  if SN == nil then
   else
-    gg.searchNumber("50000~100000", 16, false, 536870912, 0, -1)
-    gg.getResults(210)
-    gg.editAll("32465", 16)
-    gg.clearResults()
+    if SN[1] == true then
+      ch1()
+    end
+    if SN[2] == true then
+      ch2()
+    end
+    if SN[3] == true then
+      ch3()
+    end
+    if SN[4] == true then
+      ch4()
+    end
+    if SN[5] == true then
+      ch5()
+    end
+    if SN[6] == true then
+      ch6()
+    end
+    if SN[7] == true then
+      ch7()
+    end
+    if SN[8] == true then
+      ch8()
+    end
+    if SN[9] == true then
+      ch9()
+    end
+    if SN[10] == true then
+      ch10()
+    end
+    if SN[11] == true then
+      ch11()
+    end
+    if SN[12] == true then
+      ch12()
+    end
+    if SN[13] == true then
+      ch13()
+    end
+    if SN[14] == true then
+      ch14()
+    end
   end
+  menkuk = -1
+end
+
+function ch1()
   gg.clearResults()
-end
-
-function DMG()
-gg.clearResults()
-local t = gg.getRangesList('libUE4.so$');
-local KOPLAXS = {}
-KOPLAXS[1] = {}
-KOPLAXS[1].address = t[1].start + 0x37C1BA4
-KOPLAXS[1].flags = gg.TYPE_FLOAT
-KOPLAXS[1].value  = "0"
-gg.setValues(KOPLAXS)
- gg.clearResults()
-end
-
-function PST()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("0.75;150;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(999)
-gg.editAll("30", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("0.75;150;30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("0.75", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(999)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-end
-function FL()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("200;200;1;1::13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResultCount()
-gg.getResults(21)
-gg.editAll("4412", gg.TYPE_FLOAT)
-gg.clearResults()
-end
----
-function WHMENU()
-gg.clearResults()
-Name = "WH636" 
-gg.setRanges(131072)
-local dataType = 4
-local search = {
-{1073741824, 0},
-{275791876, -76},
-
-}
-local modify = {{1123024896, 0},}
-SearchWrite(search,modify,dataType,Name)
-gg.clearResults()
-Name = "WH636v2" 
-gg.setRanges(131072)
-local dataType = 4
-local search = {
-{1073741824, 0},
-{1669401095, -116},
-{1075316738, -124},
-
-}
-local modify = {{1123024896, 0},}
-SearchWrite(search,modify,dataType,Name)
-gg.clearResults()
-Name = "WH636v3" 
-gg.setRanges(131072)
-local dataType = 4
-local search = {
-{1073741824, 0},
-{925353388, 24},
-
-}
-local modify = {{1123024896, 0},}
-SearchWrite(search,modify,dataType,Name)
-gg.clearResults()
-Name = "WH636v4" 
-gg.setRanges(131072)
-local dataType = 4
-local search = {
-{1073741824, 0},
-{1686210565, -92},
-{273350658, -104},
-{1079516162, -108},
-
-}
-local modify = {{1123024896, 0},}
-SearchWrite(search,modify,dataType,Name)
---
-gg.clearResults()
-Name = "fixblink" 
-gg.setRanges(8)
-local dataType = 16
-local search = {
-{-1.8388534E28, 0},
-{-1.2537316E28, -36},
-
-}
-local modify = {{0.0, 0},}
-SearchWrite(search,modify,dataType,Name)
-gg.clearResults()
-Name = "green" 
-gg.setRanges(131072)
-local dataType = 4
-local search = {
-{32770, 0},
-{233630, -64},
-
-}
-local modify = {{25, 0},}
-SearchWrite(search,modify,dataType,Name)
-gg.clearResults()
-end
-
-function ANT()
-MNANT = gg.alert("ᴀᴄ̧ ᴠᴇʏᴀ ᴋᴀᴘᴀᴛ", "[ᗩᑕ̧]", " [Kᗩᑭᗩ]")
-  if MNANT == 1 then ANTON() end
-  if MNANT == 2 then ANTOFF() end
-end
-function ANTON()
-gg.clearResults()
-karar = {
-{["memory"] = 32},
-{["name"] = "ᴀɴᴛᴇɴɴᴀON"},
-{["value"] = 4804934254803878643, ["type"] = 32},
-{["lv"] = -4410762456449774017, ["offset"] = 4, ["type"] = 32},
-{["lv"] = 4575657222473777152, ["offset"] = 12, ["type"] = 32},
-}
-qmxg = {
-{["value"] = 4610560119594024960, ["offset"] = 0, ["type"] = 32},
-{["value"] = -4410762456495030272, ["offset"] = 4, ["type"] = 32},
-{["value"] = 4575657222557253632, ["offset"] = 12, ["type"] = 32},
-
-}
-xqmnb(karar)
-gg.clearResults()
-end
-function ANTOFF()
-gg.clearResults()
-karar = {
-{["memory"] = 32},
-{["name"] = "ᴀɴᴛᴇɴɴᴀOFF"},
-{["value"] = 4610560119594024960, ["type"] = 32},
-{["lv"] = -4410762456495030272, ["offset"] = 4, ["type"] = 32},
-{["lv"] = 4575657222557253632, ["offset"] = 12, ["type"] = 32},
-}
-qmxg = {
-{["value"] = 4804934254803878643, ["offset"] = 0, ["type"] = 32},
-{["value"] = -4410762456449774017, ["offset"] = 4, ["type"] = 32},
-{["value"] = 4575657222473777152, ["offset"] = 12, ["type"] = 32},
-
-}
-xqmnb(karar)
-gg.clearResults()
-end
-
-function AIM()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber("360;0.0001;1478828288", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("99999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("2015175168", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-function PS() end
-function setvalue(address,flags,value) PS('修改地址数值(地址,数值类型,要修改的值)') local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
-so=gg.getRangesList('libUE4.so')[1].start
-py=0x1078FBC
-setvalue(so+py,4,0)
-gg.sleep(500)
-py=0x10795B4
-setvalue(so+py,4,0)
-gg.sleep(500)
-py=0x10795D4
-setvalue(so+py,4,0)
-gg.sleep(500)
-py=0x10A315C
-setvalue(so+py,4,0)
-gg.sleep(500)
-py=0x1079778
-setvalue(so+py,4,0)
-gg.sleep(600)
-end
-
-function ANTBOX()
-gg.clearResults()
-Name = "antenabox" 
-gg.setRanges(131072)
-local dataType = 16
-local search = {
-{14.79005432129, 0},
-{19.48537445068, -12},
-
-}
-local modify = {{99999, 0},{99999, 804},{99999, 1056},{99999, 1284},}
-SearchWrite(search,modify,dataType,Name)
-gg.clearResults()
-end
-
-function LESS()
-gg.clearResults()
-gg.setRanges(8)
-local tb1 = {{-298841599, 0}, {-308864511, -8}, } 
-local tb2 = {{0, 0}, } 
-local dt = 4
-SearchWrite(tb1,tb2, dt) 
-gg.clearResults()
-gg.setRanges(8)
-local tb1 = {{-298841599, 0}, {-309061066, -12}, } 
-local tb2 = {{0, 0}, } 
-local dt = 4
-SearchWrite(tb1,tb2, dt) 
-gg.clearResults()
---
-Name = "antiShake"
-gg.setRanges(16384)
-local dataType = 4
-local tb1 = {{-405405696, 0}, {-499122175, 4}, {-481296380, 8}, }
-local tb2 = {{0, 0}, }
-SearchWrite(tb1, tb2, dataType)
-gg.setRanges(16384)
-local dataType = 16
-local tb1 = {{-1.114450155758339E28, 0}, {-2.8111605430681328E28, -12}, {-1476732160.0, -8}, {-3.7444097189855772E28, -4}, {128.0, 4}, }
-local tb2 = {{0, 0}, }
-SearchWrite(tb1, tb2, dataType)
-gg.clearResults()
-end
-
-function SHAKE()
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("0.2~0.3;53;30;1::", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.2~0.3;1::", 16, false, 536870912, 0, -1)
-gg.getResults(1000)
-gg.editAll("0", 16)
-gg.clearResults()
-end
-
-function MAGIC()
+  gg.setRanges(gg.REGION_C_BSS)
+  gg.searchNumber("2048D;4D;1F;1F;1D:30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResultsCount()
   gg.clearResults()
-  gg.setRanges(32)
-  gg.searchNumber('69.5;35;33', 16, false, 536870912, 0, -1)
-  gg.getResults(6)
-  gg.editAll('120', 16)
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3000;5000;1024;1000::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3472849)
+  gg.editAll("999999", gg.TYPE_FLOAT)
+  gg.toast("🌝 ALPHA HACK TR 🌚")
+end
+
+function ch2()
   gg.clearResults()
---
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("0.98900693655~0.98900723457;0.14786802232~0.14786840975;1.1920926e-7::9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResultsCount()
+  gg.searchNumber("0.98900693655~0.98900723457", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("16000", gg.TYPE_FLOAT)
+  gg.toast("🌝 ALPHA HACK TR 🌚")
+end
+
+function ch3()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.setRanges(gg.REGION_C_DATA)
+  gg.searchNumber("360;0.0001;1478828288", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("9999", gg.TYPE_FLOAT)
+  gg.toast("Aimbot On")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("0000B040rA;0000803FrA;0000403FrA:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("1,087,897,600;1,075,838,976;1,075,838,976", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.clearResults()
+  gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
-  gg.editAll("100", gg.TYPE_FLOAT)
+  gg.editAll("300;305", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.searchNumber("1F;-8.6457681e12F;15F;28F;16F;26F;8F;18F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("15.0F;28.4F;16.0F;26.0F;8.4F;18.4F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(500)
-gg.editAll("95", gg.TYPE_FLOAT)
-gg.clearResults()
+  gg.toast("🌝 ALPHA HACK TR 🌚")
 end
 
-function STAND()
-MNSTAND = gg.alert("ᴀᴄ̧ ᴠᴇʏᴀ ᴋᴀᴘᴀᴛ", "[ᗩᑕ̧]", " [Kᗩᑭᗩ]")
-  if MNSTAND == 1 then STANDON() end
-  if MNSTAND == 2 then STANDOFF() end
-end
-function STANDON()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.setVisible(false)
-gg.searchNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(200)
-gg.editAll("4848124999984742400", gg.TYPE_QWORD)
-gg.clearResults()
-end
-function STANDOFF()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.setVisible(false)
-gg.searchNumber("4848124999984742400", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("4848124999984742400", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("4848124999984742400", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(200)
-gg.editAll("4138667321167981973", gg.TYPE_QWORD)
-gg.clearResults()
-end
-
-function LONGJ()
-gg.clearResults()
- gg.setRanges(gg.REGION_ANONYMOUS)
- gg.searchNumber("16;4,575,657,222,473,777,152;1,065,353,216;17,179,869,188:37", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
- local t = gg.getResults(1000)
- gg.searchNumber("4,575,657,222,473,777,152", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
- local t = gg.getResults(500)
- gg.editAll("4,575,657,222,488,624,988", gg.TYPE_QWORD)
-gg.clearResults()
- gg.setRanges(gg.REGION_ANONYMOUS)
- gg.searchNumber("1,133,903,872;4,611,686,019,455,831,245;1,103,626,240;4,575,657,222,517,817,344:25", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
- local t = gg.getResults(1000)
- gg.searchNumber("4,611,686,019,455,831,245", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
- local t = gg.getResults(500)
- gg.editAll("4,611,686,019,501,674,988", gg.TYPE_QWORD) 
- gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-6.1526231e27;-1.0070975e28::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("-6.1526231e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-end
-
-function LONGJ2()
-gg.clearResults()
+function ch4()
+  gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("0.6~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("0.6~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(2500)
-  gg.editAll("3.5241295", gg.TYPE_FLOAT)
-  gg.editAll("3.5241295", gg.TYPE_FLOAT)
+  gg.searchNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("180", gg.TYPE_FLOAT)
+  gg.toast("🌝 ALPHA HACK TR 🌚")
+end
+
+function ch5()
   gg.clearResults()
-  gg.searchNumber("300;0;0.05000000075;2;25::17", gg.TYPE_FLOAT, false)
-  gg.searchNumber("300;0;0.05000000075;2;25::17", gg.TYPE_FLOAT, false)
-  gg.refineNumber("0.05000000075", gg.TYPE_FLOAT, false)
-  gg.refineNumber("0.05000000075", gg.TYPE_FLOAT, false)
-  gg.getResults(2400)
-  gg.editAll("2.1241295", gg.TYPE_FLOAT)
-  gg.editAll("2.1241295", gg.TYPE_FLOAT)
+  gg.processResume()
+  gg.searchNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.refineNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.refineNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.refineNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+  revert = gg.getResults(61, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.processResume()
+  gg.sleep(1000)
+  if revert ~= nil then
+    gg.setValues(revert)
+  end
   gg.clearResults()
+end
+
+function ch6()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("220;178;15 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("438", gg.TYPE_FLOAT)
+  gg.toast("🌝 ALPHA HACK TR 🌚")
+end
+
+function ch7()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(500)
+  gg.editAll("1.06", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🌝 ALPHA HACK TR 🌚")
+end
+
+function ch8()
   gg.clearResults()
   gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-6.1526231e27;-1.0070975e28::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("-6.1526231e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-end
-
-function SPD()
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("0;7.0064923e-45;1;100;1;2,500,000,000.0;0.10000000149;88", 16, false, 536870912, 0, -1)
-gg.searchNumber("1", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("9999", 16)
-gg.clearResults()
-end
-
-function IPAD2()
-gg.clearResults()
-karar = {
-{["memory"] = 32},
-{["name"] = "ipadx2"},
-{["value"] = 1130102784, ["type"] = 4},
-{["lv"] = 1130102784, ["offset"] = 292, ["type"] = 4},
-}
-qmxg = {
-{["value"] = 500, ["offset"] = 0, ["type"] = 16},
-}
-xqmnb(karar)
-gg.clearResults()
-end
-
-function IPAD4()
-gg.clearResults()
-karar = {
-{["memory"] = 32},
-{["name"] = "ipadx4"},
-{["value"] = 1130102784, ["type"] = 4},
-{["lv"] = 1130102784, ["offset"] = 292, ["type"] = 4},
-}
-qmxg = {
-{["value"] = 999, ["offset"] = 0, ["type"] = 16},
-}
-xqmnb(karar)
-gg.clearResults()
-end
-
-function IPAD8()
-gg.clearResults()
-karar = {
-{["memory"] = 32},
-{["name"] = "ipadx8"},
-{["value"] = 1130102784, ["type"] = 4},
-{["lv"] = 1130102784, ["offset"] = 292, ["type"] = 4},
-}
-qmxg = {
-{["value"] = 1500, ["offset"] = 0, ["type"] = 16},
-}
-xqmnb(karar)
-gg.clearResults()
-end
-
-function NFOOT()
-  gg.clearResults()
-  gg.setRanges(32)
-  gg.setVisible(false)
-  gg.searchNumber("2D;256D;256D;0.96666663885117;256D", 16, false, 536870912, 0, -1)
-  gg.setVisible(false)
-  gg.searchNumber("0.96666663885117", 16, false, 536870912, 0, -1)
-  gg.getResults(3)
-  gg.editAll("999.9949", 16)
-  gg.clearResults()
-end
-
-function SKY()
-gg.clearResults()
-karar = {
-{["memory"] = 32},
-{["name"] = "Blacksky"},
-{["value"] = 1028443341, ["type"] = 4},
-{["lv"] = 1242147142, ["offset"] = -12, ["type"] = 4},
-}
-qmxg = {
-{["value"] = 1120403456, ["offset"] = 0, ["type"] = 4},
-{["value"] = 1120403456, ["offset"] = -12, ["type"] = 4},
-}
-xqmnb(karar)
-gg.clearResults()
-end
----
-function whclr() WHMN = gg.choice({
-"❰  🔶         sɴᴀᴘᴅʀᴀɢᴏɴ 425       🔶  ❱",
-"❰  🔷         sɴᴀᴘᴅʀᴀɢᴏɴ 430       🔷  ❱",
-"❰  🔶         sɴᴀᴘᴅʀᴀɢᴏɴ 625       🔶  ❱",
-"❰  🔶         sɴᴀᴘᴅʀᴀɢᴏɴ 636       🔷  ❱",
-"❰  🔶         sɴᴀᴘᴅʀᴀɢᴏɴ 660       🔶  ❱",
-"❰  🔶         sɴᴀᴘᴅʀᴀɢᴏɴ 665       🔶  ❱",
-"❰  🔷         sɴᴀᴘᴅʀᴀɢᴏɴ 670       🔷  ❱",
-"❰  🔷         sɴᴀᴘᴅʀᴀɢᴏɴ 675       🔷  ❱",
-"❰  🔷         sɴᴀᴘᴅʀᴀɢᴏɴ 675v      🔷  ❱",
-"❰  🔶         sɴᴀᴘᴅʀᴀɢᴏɴ 710       🔶  ❱",
-"❰  🔶         sɴᴀᴘᴅʀᴀɢᴏɴ 720       🔶  ❱",
-"❰  🔷         sɴᴀᴘᴅʀᴀɢᴏɴ 810       🔷  ❱",
-"❰  🔶         sɴᴀᴘᴅʀᴀɢᴏɴ 820       🔶  ❱",
-"❰  🔷         sɴᴀᴘᴅʀᴀɢᴏɴ 835       🔷  ❱",
-"❰  🔶         sɴᴀᴘᴅʀᴀɢᴏɴ 845       🔶  ❱",
-"❰  🔷         sɴᴀᴘᴅʀᴀɢᴏɴ 855       🔷  ❱",
-"❰  🔷         sɴᴀᴘᴅʀᴀɢᴏɴ 865       🔷  ❱",
-"❰  🔶  sɴᴀᴘᴅʀᴀɢᴏɴ ᴛᴜ̈ᴍ sᴜ̈ʀᴜ̈ᴍʟᴇʀ 🔷  ❱",
-"❰  ⁦🛠️            Fix Blink V1              🛠️  ❱",
-"❰  ⁦🛠️            Fix Blink V2              🛠️  ❱",
-"❰  ⁦🛠️            Fix Scope                  🛠️  ❱",
-"❰  ⁦💜                 RENKLER                     💛  ❱",
-"❰  ⬅️                [Geri git]                    ⬅️  ❱",
-  },nil,"🖤 AʟᴘʜᴀHᴀᴄᴋTR 🖤 Wᴀʟʟʜᴀᴄᴋ ᴠᴇ Rᴇɴᴋ Mᴇɴᴜ")
-if WHMN == nil then else
-if WHMN == 1 then WH425() end
-if WHMN == 2 then WH430() end
-if WHMN == 3 then WH625() end
-if WHMN == 4 then WH636() end
-if WHMN == 5 then WH660() end
-if WHMN == 6 then WH665() end
-if WHMN == 7 then WH710() end
-if WHMN == 8 then wh675() end
-if WHMN == 9 then wh675() end
-if WHMN == 10 then SD675() end
-if WHMN == 11 then Wn720() end
-if WHMN == 12 then WH810() end
-if WHMN == 13 then WH820() end
-if WHMN == 14 then WH835() end
-if WHMN == 15 then WH845() end
-if WHMN == 16 then WH855() end
-if WHMN == 17 then WH865() end
-if WHMN == 18 then ALLD() end
-if WHMN == 19 then FIXWH() end
-if WHMN == 20 then FIXWH2() end
-if WHMN == 21 then FIXSCOPE() end
-if WHMN == 22 then CLR() end
-if WHMN == 23 then HOME() end
-end
-PUBGMH = -1
-end
-function WH865()
-gg.clearResults()
-	 gg.setRanges(gg.REGION_BAD)
-	 gg.searchNumber("1.12020508e-19;3.76158192e-37;2.0;0.24022650719;0.69314718246::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-	 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-	 jg=gg.getResults(100)
-	 sl=gg.getResultCount()
-	 if sl>100 then sl=100 end
-	 for i = 1, sl do
-	 	 dzy=jg[i].address
-	 	 gg.addListItems({[1] = {address = dzy,flags = gg.TYPE_FLOAT,freeze = true,value = 120}})
-	 end
-	 gg.toast("865")
-	 gg.clearResults()
-	gg.clearResults()
-	 gg.setRanges(gg.REGION_BAD)
-	 gg.searchNumber("1,194,347,012;8,196;8,200;524,292;1,080,039,424", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-	 gg.searchNumber("8200\n", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-	 gg.getResults(100)
-	 gg.editAll("6", gg.TYPE_DWORD)
-	 gg.toast("865")
-	 gg.clearResults()
-end
-function WH665()
-gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("2.0F;1.66231134e-19F;0.0F;9.21942286e-41F;7.23035964e-15F;2.37549734116F;4.40284136e-29F;2.25000905991F;3.58159416e-39F;1.66433004e10F::37", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("200")
-  gg.getResults(25)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("2.0F;-1.0F;0.0F;1.0F;-127.0F;0.24022650719F;0.69314718246F;0.00999999978F;-0.0F;0.0F::37", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("930")
-  gg.getResults(25)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("A8C")
-  gg.getResults(25)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("B10")
-  gg.getResults(25)
-  gg.editAll("120", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("588")
-  gg.getResults(25)
+  gg.searchNumber("0.0001;360.0;0.0;1,478,828,416.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
   gg.editAll("999", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("665 ᴀᴋᴛɪғ") 
-  CLR()
-end
-
-
-function SD675()
-W3 = gg.multiChoice({
-"🌀  ᴡᴀʟʟʜᴀᴄᴋ   🌀","🌀  ᴡᴀʟʟʜᴀᴄᴋ² 🌀","💛   sᴀʀɪ      💛","💚    ʏᴇşɪʟ       💚","❤       ᴋɪʀᴍɪᴢɪ         ❤ ","💜      ᴘᴇᴍʙᴇ         ??","⬛   sɪʏᴀʜ ɢᴏᴋʏᴜ̈ᴢᴜ̈  ⬛ ","🧡 ᴛᴜʀᴜɴᴄᴜ Gᴏᴋʏᴜᴢᴜ 🧡  ","⫷ ɢᴇʀɪ ɢɪᴛ ⫸"
-}, nil, "🌺ᴡᴀʟʟʜᴀᴄᴋ+ʀᴇɴᴋ[675]🌺")
-if W3 == nil then
-else
-if W3[1] == true then
-WH_675()
-end
-if W3[2] == true then
-WH2_675()
-end
-if W3[3] == true then
-Yellow_675()
-end
-if W3[4] == true then
-GREEN_675()
-end
-if W3[5] == true then
-Red_675()
-end
-if W3[6] == true then
-PINK_675()
-end
-if W3[7] == true then
-BLACKSKY_675()
-end
-if W3[8] == true then
-ORANGESKY_675()
-end
-if W3[9] == true then
-WHSNAP()
-end
-end
-PUBGMH = -1
-end
-function WH_675()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("6.03209094e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6281913639784)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-2.57741948e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(6281913639784)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("🌺WALLHACK SD675 Aktif Edildi @AlphaHackTR🌺")
-end
-function WH2_675()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("200")
-gg.getResults(999)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("930")
-gg.getResults(999)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-end
-function Yellow_675()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{625}   💛")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{625}   💛")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛   sᴀʀɪ      💛")
-end
-function GREEN_675()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("69,897;147,457;69,739", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.toast("💚ʀᴇɴᴋ 675 ʏᴇşɪʟ💚 ")
-end
-function Red_675()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.clearResults()
-gg.searchNumber("09110100rA;01080263rA;0B910100rA;01080063rA;01400400rA;04000040rA;01400200rA;02000040rA;00000140rA;00080040rA;6B100100rA:41", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("69739", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("775588", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("102667;1660946433;278529;1073741828;147457;1073741826;1073807360;1073743872:29", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("147457", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("-1", gg.TYPE_DWORD)
-gg.toast("❤       ᴋɪʀᴍɪᴢɪ         ❤ ")
-end
-function PINK_675()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("1,988,957,478,846,464", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.sleep(140)
-gg.refineNumber("1,988,957,478,846,464", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.sleep(140)
-gg.refineAddress("65C", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1,988,957,478,846,464", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1401)
-gg.editAll("1,988,957,532,585,984", gg.TYPE_QWORD)
-gg.clearResults()
-gg.toast("🌂 PEMBE 675 🌂")
-end
-function wh675()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress( "200")
-gg.getResults(999)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress( "930")
-gg.getResults(999)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-colorV5()
-gg.toast("🖤 ᴀʟᴘʜᴀ ᴏᴍᴇɢᴀ ʙᴇᴛᴀ 🖤") end function colorV5()
-CRRRRP = gg.choice({
- "『💛』Mᴀᴠɪ Charms",
- "『💚️』Yᴇşɪʟ Charms",
- "『🚫️』Olmadan Charms"
-}, nil,"Perspektif ve Charms")
-if CRRRRP == nil then
-gg.alert( "👨‍✈️ᴀʟᴘʜᴀ ʜᴀᴄᴋ ᴛʀ❤️")
-colorV5()
-end
-if CRRRRP == 1 then
-bluecolorV2()
-end
-if CRRRRP == 2 then
-greencolorV2()
-end
-if CRRRRP == 3 then
-end
-end
-function bluecolorV2()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.clearResults()
-gg.searchNumber("09110100rA;01080263rA;0B910100rA;01080063rA;01400400rA;04000040rA;01400200rA;02000040rA;00000140rA;00080040rA;6B100100rA:41", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("69739", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("775588", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{625}   💛")
-gg.clearResults()
-gg.searchNumber("102667;1660946433;278529;1073741828;147457;1073741826;1073807360;1073743872:29", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("147457", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.toast("💛   sᴀʀɪ      💛") end function greencolorV2()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress( "0B0")
-gg.getResults(999)
-gg.editAll("8199", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("ʏᴜᴋʟᴇɴɪʏᴏʀ") end
-function FIXWH()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("5.2806111e-40;6.50000333786;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("1.1202011e-19;1.1202015e-19;3.7615819e-37;255.0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(20)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("🛠️ Fix Blink 430-835 🛠️")
-end
-
-function FIXWH2()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("6.50000333786;1.1202013e-19;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(999)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("🛠️ Fix Blink 845-855 🛠️")
-end
-
-function FIXSCOPE()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
-gg.searchNumber(2, 16, false, 536870912, 0, -1)
-gg.getResults(3)
-gg.editAll("2.001", 16)
-gg.searchNumber(2, 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(3)
-gg.editAll("2.001", 16)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("🛠️ Fix Scope 🛠️")
-end
-
-function WH425()
-gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("2.9427268e-44;2.0;3.0828566e-44;-1.0;3.2229865e-44;3.3631163e-44;3.643376e-44:97", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("3.1529215e-43;2.0F;3.1669345e-43F;3.1809475e-43:49", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(4)
-gg.searchNumber("227;1,073,741,824;1,073,741,824;-1,082,130,432;1,073,741,824:49", 4, false, 536870912, 0, -1)
-gg.searchNumber("1,073,741,824", 4, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("1,123,024,896", 4)
-gg.clearResults()
-gg.toast("WALLHACK [SnapDragon 425] Aktif Edildi @AlphaHackTR")
-CLR()
-end
-
-function WH430()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;-127.0F::520", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(20)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:", 16, false, 536870912, 0, -1)
-gg.searchNumber("2", 16, false, 536870912, 0, -1)
-gg.getResults(4)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("WALLHACK [SnapDragon 430] Aktif Edildi @AlphaHackTR")
-CLR()
-end
-
-function WH625()
-gg.clearResults()
-Name = "WH625" 
-gg.setRanges(131072)
-local dataType = 4
-local search = {
-{1073741824, 0},
-{275791876, -76},
-
-}
-local modify = {{1124204544, 0},}
-SearchWrite(search,modify,dataType,Name)
-gg.clearResults()
-Name = "WH625v2" 
-gg.setRanges(131072)
-local dataType = 4
-local search = {
-{1073741824, 0},
-{1669726232, -324},
-
-}
-local modify = {{1124204544, 0},}
-SearchWrite(search,modify,dataType,Name)
-gg.clearResults()
-Name = "WH626v3" 
-gg.setRanges(131072)
-local dataType = 4
-local search = {
-{1073741824, 0},
-{925353388, 24},
-
-}
-local modify = {{1124204544, 0},}
-SearchWrite(search,modify,dataType,Name)
-gg.clearResults()
-Name = "WH625v4" 
-gg.setRanges(131072)
-local dataType = 4
-local search = {
-{1073741824, 0},
-{1686210565, -92},
-{273350658, -104},
-{1079516162, -108},
-
-}
-local modify = {{1124204544, 0},}
-SearchWrite(search,modify,dataType,Name)
---
-gg.clearResults()
-Name = "fixblink" 
-gg.setRanges(8)
-local dataType = 16
-local search = {
-{-1.8388534E28, 0},
-{-1.2537316E28, -36},
-
-}
-local modify = {{0.0, 0},}
-SearchWrite(search,modify,dataType,Name)
-gg.clearResults()
-gg.toast("WALLHACK [SnapDragon 625] Aktif Edildi @AlphaHackTR")
-CLR()
-end
-
-function WH636()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
-gg.searchNumber(2, 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
-gg.searchNumber(2, 16, false, 536870912, 0, -1)
-gg.getResults(30)
-gg.editAll("120", 16)
-gg.clearResults()
-gg.toast("WALLHACK [SnapDragon 636] Aktif Edildi @AlphaHackTR")
-CLR()
-end
-function WH660()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber('135,215D;4,140D;3.7615819e-37;2::', 16, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber('2', 16, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll('130', 16)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber('194D;3.7615819e-37;2;-1;1;-127::', 16, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber('2', 16, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll('130', 16)
-gg.clearResults()
-gg.toast("Wallhack Aktif Edildi @AlphaHackTR") 
-CLR()
-end
-
-function WH710()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("WALLHACK [SnapDragon 710] Aktif Edildi @AlphaHackTR")
-CLR()
-end
-
-
-function Wn720()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("537133066;8200;1194344459;8201:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.getResults(63825)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Aᴋᴛɪғ ᴇᴅɪʟᴅɪ @ᴍᴜᴄᴏᴛᴏᴏ✓")
-end
-
-function WH810()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-CLR()
-end
-
-function WH820()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("WALLHACK [SnapDragon 820] Aktif Edildi @AlphaHackTR")
-CLR()
-end
-
-function WH835()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("WALLHACK [SnapDragon 835] Aktif Edildi @AlphaHackTR")
-CLR()
-end
-
-function WH845()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("WALLHACK [SnapDragon 845] Aktif Edildi @AlphaHackTR")
-CLR845()
-end
-
-function WH855()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("WALLHACK [SnapDragon 855] Aktif Edildi @AlphaHackTR")
-CLR855()
-end
-
-function ALLD()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("2;1.8947657e-40;5.8013756e-42", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("WALLHACK [Bᴜ̈ᴛᴜ̈ɴ Cɪʜᴀᴢʟᴀʀ] Aktif Edildi @AlphaHackTR")
-CLR()
-end
-
-function CLR845()
-CLRMN845 = gg.choice({
-"❰  ⁦♥️⁩             ᴋɪʀᴍɪᴢɪ ʙᴇᴅᴇɴ 845          ⁦♥️⁩  ❱",
-"❰  ♎           ʏᴇşɪʟ ʙᴇᴅᴇɴ 845        ♎  ❱",
-"❰  💛         sᴀʀɪ ʙᴇᴅᴇɴ 845        💛  ❱",
-"❰  🔵            ᴍᴀᴠɪ ʙᴇᴅᴇɴ 845         🔵  ❱",
-"❰  ⬅️             [ɢᴇʀɪ ɢɪᴛ]            ⬅️  ❱",
-  },nil,"\n🖤 𝖠 𝖫 𝖯 𝖧 𝖠  𝖧 𝖠 𝖢 𝖪  𝖳 𝖱 🖤")
-if CLRMN845 == nil then else
-if CLRMN845 == 1 then RED845() end
-if CLRMN845 == 2 then GREEN855() end
-if CLRMN845 == 3 then YELL845() end
-if CLRMN845 == 4 then BLUE855() end
-if CLRMN845 == 5 then HOME() end
-end
-PUBGMH = -1
-end
-
-function CLR855()
-CLRMN855 = gg.choice({
-"❰  ♎           ʏᴇşɪʟ ʙᴇᴅᴇɴ 855        ♎  ❱",
-"❰  ☣️         sᴀʀɪ ʙᴇᴅᴇɴ 855        ☣️  ❱",
-"❰  🔵            ᴍᴀᴠɪ ʙᴇᴅᴇɴ 855         🔵  ❱",
-"❰  ⚪           ʙᴇʏᴀᴢ ʙᴇᴅᴇɴ 855        ⚪  ❱",
-"❰  ??             ᴋɪʀᴍɪᴢɪ ʙᴇᴅᴇɴ 855          🔴  ❱",
-"❰  ⬅️             [ɢᴇʀɪ ɢɪᴛ]            ⬅️  ❱",
-  },nil,"\n🖤 𝖠 𝖫 𝖯 𝖧 𝖠  𝖧 𝖠 𝖢 𝖪  𝖳 𝖱 🖤")
-if CLRMN855 == nil then else
-if CLRMN855 == 1 then GREEN855() end
-if CLRMN855 == 2 then YELL855() end
-if CLRMN855 == 3 then BLUE855() end
-if CLRMN855 == 4 then WHITE855() end
-if CLRMN855 == 5 then RED855() end
-if CLRMN855 == 6 then HOME() end
-end
-PUBGMH = -1
-end
-function CLR()
-CLRMN = gg.choice({
-"❰  🔴             ᴋɪʀᴍɪᴢɪ ʙᴇᴅᴇɴ 625          🔴  ❱",
-"❰  ☣️          sᴀʀɪ ʙᴇᴅᴇɴ 625       ☣️  ❱",
-"❰  ☣️          sᴀʀɪ ʙᴇᴅᴇɴ 625       ☣️  ❱",
-"❰  ☣️          sᴀʀɪ ʙᴇᴅᴇɴ 636       ☣️  ❱",
-"❰  🔴             ᴋɪʀᴍɪᴢɪ ʙᴇᴅᴇɴ 660          🔴  ❱",
-"❰  ☣️          sᴀʀɪ ʙᴇᴅᴇɴ 660       ☣️  ❱",
-"❰  🔴             ᴋɪʀᴍɪᴢɪ ʙᴇᴅᴇɴ 665          🔴  ❱",
-"❰  ⚪             ᴋɪʀᴍɪᴢɪ ʙᴇᴅᴇɴ 675          ⚪  ❱",
-"❰  ⚪            ʙᴇʏᴀᴢ ʙᴇᴅᴇɴ ʜᴇᴘsɪ        ⚪  ❱",
-"❰  ⚫            sɪʏᴀʜ ʙᴇᴅᴇɴ ʜᴇᴘsɪ        ⚫  ❱",
-"❰  🔴             ᴋɪʀᴍɪᴢɪ ʙᴇᴅᴇɴ 835          🔴  ❱",
-"❰  ☣️          sᴀʀɪ ʙᴇᴅᴇɴ 835       ☣️  ❱",
-"❰  🔴             ᴋɪʀᴍɪᴢɪ ʙᴇᴅᴇɴ 845          🔴  ❱",
-"❰  ♎           ʏᴇşɪʟ ʙᴇᴅᴇɴ 845        ♎  ❱",
-"❰  ☣️         sᴀʀɪ ʙᴇᴅᴇɴ 845        ☣️  ❱",
-"❰  ??            ᴍᴀᴠɪ ʙᴇᴅᴇɴ 845         🔵  ❱",
-"❰  ♎           ʏᴇşɪʟ ʙᴇᴅᴇɴ 855        ♎  ❱",
-"❰  ☣️         sᴀʀɪ ʙᴇᴅᴇɴ 855        ☣️  ❱",
-"❰  ??            ᴍᴀᴠɪ ʙᴇᴅᴇɴ 855         🔵  ❱",
-"❰  ⚪           ʙᴇʏᴀᴢ ʙᴇᴅᴇɴ 855        ⚪  ❱",
-"❰  🔴             ᴋɪʀᴍɪᴢɪ ʙᴇᴅᴇɴ 855          🔴  ❱",
-"❰  ⬅️                   [ɢᴇʀɪ ɢɪᴛ]                  ⬅️  ❱",
-  },nil,"🖤 𝖠 𝖫 𝖯 𝖧 𝖠  𝖧 𝖠 𝖢 𝖪  𝖳 𝖱 🖤n")
-if CLRMN == nil then else
-if CLRMN == 1 then RED625() end
-if CLRMN == 2 then YELLOW_625() end
-if CLRMN == 3 then YELLOW2_625() end
-if CLRMN == 4 then YELL636() end
-if CLRMN == 5 then RED625() end
-if CLRMN == 6 then YELL660() end
-if CLRMN == 7 then red660() end
-if CLRMN == 8 then red665() end
-if CLRMN == 9 then WHITEALL() end
-if CLRMN == 10 then BLACKALL() end
-if CLRMN == 11 then RED835() end
-if CLRMN == 12 then YELL835() end
-if CLRMN == 13 then RED845() end
-if CLRMN == 14 then GREEN855() end
-if CLRMN == 15 then YELL845() end
-if CLRMN == 16 then BLUE855() end
-if CLRMN == 17 then GREEN855() end
-if CLRMN == 18 then YELL855() end
-if CLRMN == 19 then BLUE855() end
-if CLRMN == 20 then WHITE855() end
-if CLRMN == 21 then RED855() end
-if CLRMN == 22 then HOME() end
-end
-PUBGMH = -1
-end
-
-function YELL660()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("537133071;8200;1194380048:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0E8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{660}   💛")
-end
-
-function red665()
-gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("32.772D;-2.134.900.736D;-2.134.900.735D;-2.134.900.734D;50.331.648D;1.039.516.303D;1.025.761.280D;1.123.024.896D;-1.138.499.584D;-1.082.130.432D::189", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("32772", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(25)
-  gg.editAll("7", gg.TYPE_DWORD)
+  gg.toast("ALPHAHACKTR")
   gg.clearResults()
-  gg.toast("665 AKTİF") 
 end
 
-
-function red665()
-gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("32.772D;-2.134.900.736D;-2.134.900.735D;-2.134.900.734D;50.331.648D;1.039.516.303D;1.025.761.280D;1.123.024.896D;-1.138.499.584D;-1.082.130.432D::189", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("32772", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(25)
-  gg.editAll("7", gg.TYPE_DWORD)
+function ch9()
   gg.clearResults()
-  gg.toast("665 Aktif") 
+  gg.setVisible(false)
+  gg.clearResults()
+  gg.setRanges(8)
+  gg.searchNumber("-2.786982e28;-3.7444097e28;-1.1368837e-13::", 16, false, 536870912, 0, -1)
+  gg.searchNumber("-3.7444097e28", 16, false, 536870912, 0, -1)
+  gg.getResults(1)
+  gg.editAll("0", 16)
+  gg.clearResults()
+  gg.setVisible(false)
+  gg.setRanges(8)
+  gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", 16, false, 536870912, 0, -1)
+  gg.searchNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+  gg.getResults(1)
+  gg.editAll("0", 16)
+  gg.toast("No recoil")
+  gg.clearResults()
+  gg.setRanges(8)
+  gg.searchNumber("-2.786982e28;-3.7444097e28;-1.1368837e-13::", 16, false, 536870912, 0, -1)
+  gg.searchNumber("-3.7444097e28", 16, false, 536870912, 0, -1)
+  gg.getResults(1)
+  gg.editAll("0", 16)
+  gg.toast("ALPHAHACKTR")
+  gg.clearResults()
 end
 
-function YELLOW_625()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("537133071;8200;1194380048:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0E8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{625}   💛")
+function ch10()
+  gg.toast("OLMAZSA TEKRAR AÇ!")
+  gg.clearResults()
+  gg.setRanges(32)
+  gg.searchNumber("88.50576019287F;87.27782440186F;-100.91194152832F;1F::13", 16, false, 536870912, 0, -1)
+  gg.searchNumber("88.50576019287F;87.27782440186F;1F", 16, false, 536870912, 0, -1)
+  gg.getResults(6)
+  gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", 16)
+  gg.clearResults()
+  gg.toast("ALPHAHACKTR")
 end
 
-function YELLOW2_625()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{625}   💛")
+function ch11()
+  gg.clearResults()
+  gg.processResume()
+  gg.searchNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.refineNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.refineNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+  gg.refineNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+  revert = gg.getResults(61, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.processResume()
+  gg.sleep(1000)
+  if revert ~= nil then
+    gg.setValues(revert)
+  end
+  gg.clearResults()
 end
 
-function YELL636()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("537133071;8200;1194380048:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0E8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{636}   💛")
+function ch12()
+  gg.clearResults()
+  gg.setRanges(131072)
+  gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297De39;1.66433e10::17", 16, false, 536870912, 0, -1)
+  gg.searchNumber("2", 16, false, 536870912, 0, -1)
+  gg.getResults(30)
+  gg.editAll("125", 16)
+  gg.clearResults()
+  gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", 16, false, 536870912, 0, -1)
+  gg.searchNumber("2", 16, false, 536870912, 0, -1)
+  gg.getResults(30)
+  gg.editAll("125", 16)
+  gg.clearResults()
+  gg.setRanges(131072)
+  gg.searchNumber("4.8146047e21;3.7615819e-37;2.0:61", 16, false, 536870912, 0, -1)
+  gg.searchNumber("2", 16, false, 536870912, 0, -1)
+  gg.getResults(10)
+  gg.editAll("120", 16)
+  gg.clearResults()
+  gg.toast("Wallhack activated")
 end
 
-function RED625()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("537133071;8200;1194380048:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0E8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("☾︎✰ RENK 636 Sarı ☾︎✰")
+function ch13()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("8200;8201;8203:512", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.esults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("3;7;8", gg.TYPE_DWORD)
+  gg.toast("Colour Green Aktif✓")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("8200D;10D;256D;32769D;32768D:1177", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("32768;32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("9999", gg.TYPE_DWORD)
 end
 
-function RED625()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("537133071;8200;1194380048:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0E8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(63825)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("☾︎✰ RENK 660 Kırmızı ☾︎✰")
-end
-
-function YELL845()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{625}   💛")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{625}   💛")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛   sᴀʀɪ      💛")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{845}   💛")
-end
-
-function WHITEALL()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Beyaz Beden Aktif Edildi @AlphaHackTR")
-end
-
-function BLACKALL()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("-999", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("Siyah Beden Aktif Edildi @AlphaHackTR")
-end
-
-function RED835()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber( "2;1.8947657e-40;5.8013756e-42", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber( "2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(999)
-gg.editAll( "120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.searchNumber( "2.718519e-43;3.7615819e-37;2;-1;1;-127", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber( "2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(999)
-gg.editAll( "120", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber( "8200;96", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber( "8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress( "098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(999)
-gg.editAll( "8199", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("🔴 ᴋɪʀᴍɪᴢɪ ʙᴇᴅᴇɴ 835 Aktif Edildi @AlphaHackTR")
-end
-
-function YELL835()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("??    sᴀʀɪ{625}   💛")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{625}   💛")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛   sᴀʀɪ      💛")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{835}   💛")
-end
-
-function RED845()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0A8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(5)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Kırmızı Renk Aktif Edildi @AlphaHackTR")
-end 
-
-function GREEN855()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD | gg.REGION_BAD)
-gg.searchNumber("537133066;8200;1194344459;8201:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.getResults(63825)
-gg.editAll("7", gg.TYPE_DWORD)
-gg.clearResults()
-end
-
-function YELL855()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{855}   💛")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200;3,75F;8;9;10;11;12;13;14;15;16;227;8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("098", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛    sᴀʀɪ{855}   💛")
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("6", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("💛   sᴀʀɪ      💛")
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0A8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1000)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0B0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1000)
-gg.editAll("8199", gg.TYPE_DWORD)
-gg.clearResults()
-end
-
-function BLUE855()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0A0")
-gg.getResults(10)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.toast("Mavi Beden Aktif Edildi @AlphaHackTR")
-end
-
-function WHITE855()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0A8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1000)
-gg.editAll("8198", gg.TYPE_DWORD)
-gg.clearResults()
-gg.searchNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("0B0", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1000)
-gg.editAll("6666", gg.TYPE_DWORD)
-gg.toast("Beyaz Beden Aktif Edildi @AlphaHackTR")
-end
-
-function RED855()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD or gg.REGION_BAD)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("2A0")
-local MM2512 = gg.getResults(1)
-if MM2512[1] ~= nil then
-MM2512[1].address = MM2512[1].address
-MM2512[1].flags = 4
-MM2512[1].value = 7
-gg.setValues(MM2512)
-end
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD or gg.REGION_BAD)
-gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("270")
-local MM2512 = gg.getResults(1)
-if MM2512[1] ~= nil then
-MM2512[1].address = MM2512[1].address
-MM2512[1].flags = 4
-MM2512[1].value = 7
-gg.setValues(MM2512)
-  gg.toast("Kırmızı Beden Aktif Edildi @AlphaHackTR")
-end end
----
-function CLOSE()
-  gg.alert("🖤 𝖠 𝖫 𝖯 𝖧 𝖠  𝖧 𝖠 𝖢 𝖪  𝖳 𝖱 🖤\n        ⚜️𝖡𝖠𝖭𝖲𝖨𝖹 𝖸𝖠𝖱𝖦𝖨 𝖣𝖠𝖦̆𝖨𝖳⚜️")
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function KAPAT()
   os.exit()
 end
 --closing
-cs = "𝖱𝖮𝖮𝖳 𝖵𝖤 𝖱𝖮𝖮𝖳𝖲𝖴𝖹 𝖢𝖨𝖧𝖠𝖹𝖫𝖠𝖱 𝖨̇𝖢̧𝖨̇𝖭𝖣𝖨̇𝖱"
+cs = "BUTUN CİHAZLARDA ÇALİŞMAZ"
 while true do
   if gg.isVisible(true) then
     PUBGMH = 1
