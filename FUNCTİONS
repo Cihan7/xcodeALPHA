@@ -2,7 +2,7 @@ endtime = load("return os.time{year=2021, month=07, day=14, hour=23,min=59, sec=
 
 if os.time() > endtime then
 
-  gg.alert("🌿Görünüşe Göre Kullanım Süresi Dolmuş 😞", "💎 Şifre almak için t.@Arapsiker ; 💬@Arapsikervip")
+  gg.alert("🌿Görünüşe Göre Kullanım Süresi Dolmuş 😞", "💎 Şifre almak için t.@MucotooDeveloper ; 💬@Mucotoo_Bot")
 
   os.exit()
 
