@@ -56,184 +56,100 @@ end -- AlphaCode
 
 function AntibanMenu()
 WN = gg.multiChoice({
-"╔[🌍] Antiban GLOBAL",
-"╔[🌏] Antiban KORE",
+"╔[👩‍💻] Antiban V8",
 "╔[❌] 3.Party Antiban",
 "╔[🗑️] Logları Temizle",
 "👈👈 MENÜ 👈👈",
 }, nil, "Antiban Menu")
 if WN == nil then
 else
-if WN[1] == true then Global()end -- AlphaCode
-if WN[2] == true then Kore()end -- AlphaCode
-if WN[3] == true then Party()end -- AlphaCode
-if WN[4] == true then LogSil()end -- AlphaCode
-if WN[5] == true then HOME()end -- AlphaCode
+if WN[1] == true then Antban()end -- AlphaCode
+if WN[2] == true then Party()end -- AlphaCode
+if WN[3] == true then LogSil()end -- AlphaCode
+if WN[4] == true then HOME()end -- AlphaCode
 end -- AlphaCode
 PUBGMH = -1
 end -- AlphaCode
 
-function Global()
+function Antban()
+gg.alert("ANTIBAN AÇILIYOR")
+gg.alert("İŞLEM BOYUNCA LOBBYDE KAL")
 gg.clearResults()
+gg.setVisible(false)
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("196,864;16,842,753::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) 
-if gg.getResultCount() == 0 then
-else
-gg.searchNumber("196,864", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-n = gg.getResultCount()
-jz = gg.getResults(n)
-for i = 1, n do
-gg.addListItems({[1] = {address = jz[i].address + 236,flags = 4,freeze = true,value = 67109633}})
-gg.addListItems({[1] = {address = jz[i].address + 232,flags = 4,freeze = true,value = 67109633}})
-gg.addListItems({[1] = {address = jz[i].address + 228,flags = 4,freeze = true,value = 67109633}})
-gg.addListItems({[1] = {address = jz[i].address + 340,flags = 4,freeze = true,value = 67109633}})
-gg.addListItems({[1] = {address = jz[i].address + 344,flags = 4,freeze = true,value = 67109633}})
+gg.searchNumber("2D;2.2958874e-41;16384D;16384D::13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "2.2958874039497803E-41"
+v.freeze = true
+end                                     
+end                                     
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.sleep(1000)
+gg.clearList()
+gg.clearResults()
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "67109633"
+v.freeze = true
+end                                     
+end                                     
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.sleep(1000)
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "67109633"
+v.freeze = true
+end                                     
+end                                     
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.sleep(1000)
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("133,378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "67109633"
+v.freeze = true
+end                                     
+end                                     
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.sleep(1000)
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("70658~590336;67109377;67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("70658~590336", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(99999)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearList()
+gg.sleep(1000)
+gg.toast([[\nBYPASS AKTİF \nYARGİ AKTİF \nCEHENNEM MOD AKTİF]])
+gg.alert("🛡️GL - KR  Ａｎｔıｂａｎ  Ａｃıｌｄı 🛡️")
 end
-end
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133634;134914", gg.TYPE_DWORD)
-gg.refineNumber("133634", gg.TYPE_DWORD)
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "67109633"
-v.freeze = true
-end                                     
-end                                     
-gg.addListItems(t)
-t = nil
-gg.editAll("67109633", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134914;131330", gg.TYPE_DWORD)
-gg.refineNumber("134914", gg.TYPE_DWORD)
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "67109633"
-v.freeze = true
-end                                     
-end                                     
-gg.addListItems(t)
-t = nil
-gg.editAll("67109633", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("131586;131842", gg.TYPE_DWORD)
-gg.refineNumber("131586", gg.TYPE_DWORD)
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "67109633"
-v.freeze = true
-end                                     
-end                                     
-gg.addListItems(t)
-t = nil
-gg.editAll("67109633", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("132098;133635", gg.TYPE_DWORD)
-gg.refineNumber("132098", gg.TYPE_DWORD)
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "67109633"
-v.freeze = true
-end                                     
-end                                     
-gg.addListItems(t)
-t = nil
-gg.editAll("67109633", gg.TYPE_DWORD)
-gg.clearResults()
-gg.alert("🛡️Ｇｌｏｂａｌ  ıｃıｎ  Ａｎｔıｂａｎ  Ａｃıｌｄı 🛡️")
-end
-
-function Kore()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("196,864;16,842,753::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) 
-if gg.getResultCount() == 0 then
-else
-gg.searchNumber("196,864", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-n = gg.getResultCount()
-jz = gg.getResults(n)
-for i = 1, n do
-gg.addListItems({[1] = {address = jz[i].address + 236,flags = 4,freeze = true,value = 67109633}})
-gg.addListItems({[1] = {address = jz[i].address + 232,flags = 4,freeze = true,value = 67109633}})
-gg.addListItems({[1] = {address = jz[i].address + 228,flags = 4,freeze = true,value = 67109633}})
-gg.addListItems({[1] = {address = jz[i].address + 340,flags = 4,freeze = true,value = 67109633}})
-gg.addListItems({[1] = {address = jz[i].address + 344,flags = 4,freeze = true,value = 67109633}})
-end
-end
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133634;134914", gg.TYPE_DWORD)
-gg.refineNumber("133634", gg.TYPE_DWORD)
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "67109633"
-v.freeze = true
-end                                     
-end                                     
-gg.addListItems(t)
-t = nil
-gg.editAll("67109633", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134914;131330", gg.TYPE_DWORD)
-gg.refineNumber("134914", gg.TYPE_DWORD)
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "67109633"
-v.freeze = true
-end                                     
-end                                     
-gg.addListItems(t)
-t = nil
-gg.editAll("67109633", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("131586;131842", gg.TYPE_DWORD)
-gg.refineNumber("131586", gg.TYPE_DWORD)
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "67109633"
-v.freeze = true
-end                                     
-end                                     
-gg.addListItems(t)
-t = nil
-gg.editAll("67109633", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("132098;133635", gg.TYPE_DWORD)
-gg.refineNumber("132098", gg.TYPE_DWORD)
-revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "67109633"
-v.freeze = true
-end                                     
-end                                     
-gg.addListItems(t)
-t = nil
-gg.editAll("67109633", gg.TYPE_DWORD)
-gg.clearResults()
-gg.alert("🛡️Ｋｏｒｅ  ıｃıｎ  Ａｎｔıｂａｎ  Ａｃıｌｄı 🛡️")
- end
 
 function Party()
 gg.clearResults()
